@@ -7,7 +7,7 @@ import jax.numpy as jnp
 import numpy as np
 from jax import jit
 from jax.tree_util import register_pytree_node_class, tree_leaves, tree_map
-from ssm_jax.bp.gauss_bp_utils import (info_divide,
+from gauss_bp.gauss_bp_utils import (info_divide,
                                        info_marginalize,
                                        info_multiply)
 

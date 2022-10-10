@@ -5,8 +5,8 @@ from jax import random as jr
 from jax import vmap, jit
 
 from ssm_jax.distributions import InverseWishart
-from ssm_jax.bp.gauss_bp_utils import info_multiply, potential_from_conditional_linear_gaussian, pair_cpot_condition
-from ssm_jax.bp.gauss_factor_graph import (GaussianVariableNode,
+from gauss_bp.gauss_bp_utils import info_multiply, potential_from_conditional_linear_gaussian, pair_cpot_condition
+from gauss_bp.gauss_factor_graph import (GaussianVariableNode,
                                            CanonicalFactor,
                                            CanonicalPotential,
                                            GaussianFactorGraph,

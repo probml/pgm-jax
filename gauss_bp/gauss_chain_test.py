@@ -1,7 +1,7 @@
 from jax import numpy as jnp
 from jax import random as jr
 
-from ssm_jax.bp.gauss_chain import gauss_chain_potentials_from_lgssm, gauss_chain_bp
+from gauss_bp.gauss_chain import gauss_chain_potentials_from_lgssm, gauss_chain_bp
 from ssm_jax.linear_gaussian_ssm.inference import lgssm_sample
 from ssm_jax.linear_gaussian_ssm.info_inference import lgssm_info_smoother
 from ssm_jax.linear_gaussian_ssm.info_inference_test import build_lgssm_moment_and_info_form

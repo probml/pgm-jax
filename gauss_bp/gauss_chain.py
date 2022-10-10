@@ -3,7 +3,7 @@ import chex
 import jax
 from jax import vmap, lax, jit
 from jax import numpy as jnp
-from ssm_jax.bp.gauss_bp_utils import (
+from gauss_bp.gauss_bp_utils import (
     potential_from_conditional_linear_gaussian,
     pair_cpot_condition,
     pair_cpot_marginalize,

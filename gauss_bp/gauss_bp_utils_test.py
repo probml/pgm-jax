@@ -1,6 +1,6 @@
 from jax import numpy as jnp
 
-from ssm_jax.bp.gauss_bp_utils import potential_from_conditional_linear_gaussian, info_condition
+from gauss_bp.gauss_bp_utils import potential_from_conditional_linear_gaussian, info_condition
 
 _all_close = lambda x, y: jnp.allclose(x, y, rtol=1e-3, atol=1e-3)
 
